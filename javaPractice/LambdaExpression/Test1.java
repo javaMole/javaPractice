@@ -4,6 +4,8 @@ class Test1
 	{
 	I1 tv1=	()->{System.out.println("This is m1 method");};
 		tv1.m1();
+
+		System.out.println(tv1);
 	}
 }
 
