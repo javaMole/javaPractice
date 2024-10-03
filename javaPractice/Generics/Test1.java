@@ -8,8 +8,7 @@ class Test
 		o1.add("raj");
 		o1.add(55);
 
-		String s1=(String)o1.get(0);
-		System.out.println(s1);
+		
 		
 		/*
 		problem 1
@@ -30,7 +29,12 @@ class Test
 
 				Here the get method will give you an Object type object it is mandatory for us to downcast that object
 			
-				String s1=(String)o1.get(0);
+				String s1=(String)o1.get(0); if we use this approach  let suppose a Object is present in the collection which is not String type we will get class get 
+				ClassCastException  for 
+				String s1=(String)o1.get(1);  // incompatible types integer cannot be converted to String
+	
+		
+					
 
 		*/
 
